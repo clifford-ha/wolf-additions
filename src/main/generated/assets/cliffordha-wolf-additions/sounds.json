@@ -1,0 +1,44 @@
+{
+  "lodestone_wind_core_ambient": {
+    "sounds": [
+      "cliffordha-wolf-additions:dragon_studio/lodestone_wind_core_ambient"
+    ],
+    "subtitle": "subtitles.cliffordha-wolf-additions.lodestone_wind_core_ambient"
+  },
+  "notify": {
+    "sounds": [
+      "cliffordha-wolf-additions:dragon_studio/notify"
+    ],
+    "subtitle": "subtitles.cliffordha-wolf-additions.notify"
+  },
+  "wolf_howl_a": {
+    "sounds": [
+      "cliffordha-wolf-additions:alex_jauk/wolf_howl_a"
+    ],
+    "subtitle": "subtitles.cliffordha-wolf-additions.wolf_howl_a"
+  },
+  "wolf_howl_b1": {
+    "sounds": [
+      "cliffordha-wolf-additions:dragon_studio/wolf_howl_b1"
+    ],
+    "subtitle": "subtitles.cliffordha-wolf-additions.wolf_howl_b1"
+  },
+  "wolf_howl_b2": {
+    "sounds": [
+      "cliffordha-wolf-additions:dragon_studio/wolf_howl_b2"
+    ],
+    "subtitle": "subtitles.cliffordha-wolf-additions.wolf_howl_b2"
+  },
+  "wolf_howl_b3": {
+    "sounds": [
+      "cliffordha-wolf-additions:dragon_studio/wolf_howl_b3"
+    ],
+    "subtitle": "subtitles.cliffordha-wolf-additions.wolf_howl_b3"
+  },
+  "wolf_skill_paralyze": {
+    "sounds": [
+      "cliffordha-wolf-additions:dragon_studio/wolf_skill_paralyze"
+    ],
+    "subtitle": "subtitles.cliffordha-wolf-additions.wolf_skill_paralyze"
+  }
+}

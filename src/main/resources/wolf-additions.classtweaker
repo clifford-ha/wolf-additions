@@ -1,0 +1,17 @@
+classTweaker  v1  official
+accessible method net/minecraft/world/entity/animal/wolf/Wolf setCollarColor (Lnet/minecraft/world/item/DyeColor;)V
+accessible method net/minecraft/world/entity/animal/wolf/Wolf canArmorAbsorb (Lnet/minecraft/world/damagesource/DamageSource;)Z
+accessible method net/minecraft/world/entity/LivingEntity actuallyHurt (Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)V
+
+accessible method net/minecraft/world/entity/animal/wolf/Wolf setVariant (Lnet/minecraft/core/Holder;)V
+accessible method net/minecraft/world/entity/animal/wolf/Wolf getVariant ()Lnet/minecraft/core/Holder;
+accessible method net/minecraft/world/entity/animal/wolf/Wolf setSoundVariant (Lnet/minecraft/core/Holder;)V
+accessible method net/minecraft/world/entity/animal/wolf/Wolf actuallyHurt (Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;F)V
+accessible method net/minecraft/world/entity/TamableAnimal teleportToAroundBlockPos (Lnet/minecraft/core/BlockPos;)V
+
+accessible method net/minecraft/world/entity/ai/behavior/VillagerGoalPackages validateBedPoi (Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Z
+accessible method net/minecraft/world/item/trading/VillagerTrade <init> (Lnet/minecraft/world/item/trading/TradeCost;Ljava/util/Optional;Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;Ljava/util/Optional;Ljava/util/Optional;Ljava/util/Optional;)V
+
+
+
+

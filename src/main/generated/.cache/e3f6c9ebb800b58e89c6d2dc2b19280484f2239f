@@ -1,0 +1,9 @@
+// 26.3	-999999999-01-01T00:00:00	Wolf Additions/Tags for minecraft:damage_type
+5c5ec68dde586b6df011243fa707e424341654bc data/cliffordha-wolf-additions/tags/damage_type/benediction_can_reduce_high_damage.json
+ce2c9e809606351eefcf2802ce6205ce430b6410 data/minecraft/tags/damage_type/always_hurts_ender_dragons.json
+f7b246267acc58076731f875849c627346ea5f85 data/minecraft/tags/damage_type/bypasses_armor.json
+dd1496b77a2847eb0be8f143f64561f8a3b57565 data/minecraft/tags/damage_type/bypasses_effects.json
+af6f621b2c0eb32963ef6e9f47a6061e0192d5a3 data/minecraft/tags/damage_type/bypasses_resistance.json
+ce2c9e809606351eefcf2802ce6205ce430b6410 data/minecraft/tags/damage_type/bypasses_shield.json
+78b7134aadba3222146b5ab42e4b89db6ac6f827 data/minecraft/tags/damage_type/bypasses_wolf_armor.json
+78b7134aadba3222146b5ab42e4b89db6ac6f827 data/minecraft/tags/damage_type/no_knockback.json

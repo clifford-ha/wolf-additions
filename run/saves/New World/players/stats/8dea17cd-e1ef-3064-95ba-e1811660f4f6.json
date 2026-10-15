@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:pillager_spawn_egg": 5,
+      "minecraft:warden_spawn_egg": 1,
+      "minecraft:wolf_spawn_egg": 1,
+      "minecraft:written_book": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 857,
+      "minecraft:time_since_rest": 2753,
+      "minecraft:walk_one_cm": 4823,
+      "minecraft:total_world_time": 2971,
+      "minecraft:fly_one_cm": 2207,
+      "minecraft:mob_kills": 5,
+      "minecraft:play_time": 2753,
+      "minecraft:damage_dealt": 60,
+      "minecraft:jump": 6,
+      "minecraft:time_since_death": 2753
+    }
+  },
+  "DataVersion": 5023
+}

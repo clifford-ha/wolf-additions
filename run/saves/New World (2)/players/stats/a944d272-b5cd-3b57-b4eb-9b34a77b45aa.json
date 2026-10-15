@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 490,
+      "minecraft:total_world_time": 503,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 490,
+      "minecraft:time_since_death": 490
+    },
+    "minecraft:used": {
+      "minecraft:anvil": 1,
+      "minecraft:enchanting_table": 1
+    }
+  },
+  "DataVersion": 5023
+}

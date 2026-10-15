@@ -1,0 +1,51 @@
+{
+  "tales-of-the-verdant-wind:a_wolf_accompanied_by_the_winds": {
+    "criteria": {
+      "a_wolf_accompanied_by_the_winds": "2026-09-28 04:51:56 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2026-09-28 04:46:26 +0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:pillager": "2026-09-28 04:51:15 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:pillager": "2026-09-28 04:51:15 +0800"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2026-09-28 04:47:23 +0800"
+    },
+    "done": true
+  },
+  "tales-of-the-verdant-wind:bound_by_an_invisible_thread": {
+    "criteria": {
+      "bound_by_an_invisible_thread": "2026-09-28 04:51:19 +0800"
+    },
+    "done": true
+  },
+  "tales-of-the-verdant-wind:power_beyond_reason": {
+    "criteria": {
+      "power_beyond_reason": "2026-09-28 04:51:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-09-28 04:46:25 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
+}

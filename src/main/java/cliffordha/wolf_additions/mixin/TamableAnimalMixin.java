@@ -1,0 +1,20 @@
+package cliffordha.wolf_additions.mixin;
+
+import cliffordha.wolf_additions.registry.attachments.entity.WolfAttachment;
+import net.minecraft.world.entity.TamableAnimal;
+import net.minecraft.world.entity.animal.wolf.Wolf;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+@Mixin(TamableAnimal.class)
+public class TamableAnimalMixin {
+    @Inject(method = "die", at = @At("HEAD"), cancellable = true)
+    private void onDeath(CallbackInfo ci) {
+        if ((Object) this instanceof Wolf wolf) {
+            if (wolf.getAttachedOrElse(WolfAttachment.BENEDICTION, 0) < 1) return;
+            ci.cancel();
+        }
+    }
+}

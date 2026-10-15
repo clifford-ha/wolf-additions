@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:bow": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:bow": 1
+    },
+    "minecraft:mined": {
+      "minecraft:ice": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 195,
+      "minecraft:walk_one_cm": 6853,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 934,
+      "minecraft:play_time": 4540,
+      "minecraft:damage_dealt": 80,
+      "minecraft:jump": 42,
+      "minecraft:time_since_death": 140,
+      "minecraft:drop": 1,
+      "minecraft:damage_dealt_absorbed": 49,
+      "minecraft:sprint_one_cm": 3259,
+      "minecraft:fall_one_cm": 1125,
+      "minecraft:total_world_time": 5236,
+      "minecraft:fly_one_cm": 11608,
+      "minecraft:deaths": 1
+    },
+    "minecraft:used": {
+      "minecraft:written_book": 4
+    }
+  },
+  "DataVersion": 5023
+}

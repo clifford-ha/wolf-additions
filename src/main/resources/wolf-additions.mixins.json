@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "cliffordha.wolf_additions.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "BedBlockMixin",
+    "IronGolemEntityMixin",
+    "ItemsMixin",
+    "PlayerEntityMixin",
+    "PowderSnowBlockMixin",
+    "TamableAnimalMixin",
+    "VillagerEntityMixin",
+    "WolfEntityMixin",
+    "misc.ArrowNameColorMixin",
+    "misc.EffectNameColorMixin",
+    "misc.EnchantmentNameColorMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}

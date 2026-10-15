@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.cliffordha-wolf-additions.wolf_effect_oozing"
+  },
+  "exclusive_set": "#cliffordha-wolf-additions:impairing_damage",
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 15
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 55,
+    "per_level_above_first": 15
+  },
+  "primary_items": "#cliffordha-wolf-additions:wolf_armor_enchantable",
+  "slots": [
+    "body"
+  ],
+  "supported_items": "#cliffordha-wolf-additions:wolf_armor_enchantable",
+  "weight": 2
+}

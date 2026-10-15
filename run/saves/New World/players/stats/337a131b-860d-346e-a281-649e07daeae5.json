@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:warden_spawn_egg": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 662,
+      "minecraft:time_since_rest": 1241,
+      "minecraft:walk_one_cm": 1352,
+      "minecraft:total_world_time": 1390,
+      "minecraft:fly_one_cm": 892,
+      "minecraft:play_time": 1241,
+      "minecraft:damage_dealt": 10,
+      "minecraft:jump": 15,
+      "minecraft:time_since_death": 1241
+    }
+  },
+  "DataVersion": 5023
+}

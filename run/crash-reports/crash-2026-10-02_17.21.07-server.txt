@@ -1,0 +1,153 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 2026-10-02 17:21:07
+Description: Exception in server tick loop
+
+java.lang.ExceptionInInitializerError
+	at knot//cliffordha.wolf_additions.entity.player.VWPlayerInteractions.onEntityInteractEvent(VWPlayerInteractions.java:48)
+	at knot//cliffordha.wolf_additions.entity.player.VWPlayerInteractions.lambda$onInteractEvents$0(VWPlayerInteractions.java:37)
+	at knot//net.fabricmc.fabric.api.event.player.UseEntityCallback.lambda$static$1(UseEntityCallback.java:51)
+	at knot//net.minecraft.server.network.ServerGamePacketListenerImpl.handler$zbf000$fabric-events-interaction-v0$handleInteract(ServerGamePacketListenerImpl.java:3125)
+	at knot//net.minecraft.server.network.ServerGamePacketListenerImpl.handleInteract(ServerGamePacketListenerImpl.java:2060)
+	at knot//net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:32)
+	at knot//net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:11)
+	at knot//net.minecraft.network.PacketProcessor$ListenerAndPacket.handle(PacketProcessor.java:55)
+	at knot//net.minecraft.network.PacketProcessor.processQueuedPackets(PacketProcessor.java:38)
+	at knot//net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1011)
+	at knot//net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:752)
+	at knot//net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:310)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.RuntimeException: Cannot load class net.minecraft.client.KeyMapping in environment type SERVER
+	at net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:64)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:475)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:428)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at knot//cliffordha.wolf_additions.keymapping.VWKeymap.<clinit>(VWKeymap.java:12)
+	... 13 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 26.3
+	Minecraft Version ID: 26.3
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 25.0.3, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 788756512 bytes (752 MiB) / 1402994688 bytes (1338 MiB) up to 4217372672 bytes (4022 MiB)
+	Memory (heap): init: 252MiB, used: 583MiB, committed: 1338MiB, max: 4022MiB
+	Memory (non-heap): init: 007MiB, used: 189MiB, committed: 191MiB, max: 000MiB
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 13th Gen Intel(R) Core(TM) i5-13420H
+	Identifier: Intel64 Family 6 Model 186 Stepping 2
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 2.61
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce RTX 4050 Laptop GPU
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 6141.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.16.1062
+	Graphics card #1 name: Intel(R) UHD Graphics
+	Graphics card #1 vendor: Intel Corporation
+	Graphics card #1 VRAM (MiB): 2048.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.101.7088
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 23255.68
+	Virtual memory used (MiB): 17444.16
+	Swap memory total (MiB): 7168.00
+	Swap memory used (MiB): 40.98
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 74234.93, total: 481284.84
+	Space in storage for workdir (MiB): available: 74234.93, total: 481284.84
+	Operating System Version: Microsoft Windows 11 build 26200
+	Process Elevated: false
+	Process Loads: Uptime: 63s, user: 104s (164.43%), kernel: 6s (8.86%), total: 110s (173.30%)
+	Process Virtual Size (MiB): 1986.46
+	Process Resident Size (MiB): 1654.53
+	JVM Flags: 0 total; 
+	Debug Flags: 0 total; 
+	Fabric Mods: 
+		cloth-basic-math: cloth-basic-math 0.6.1
+		cloth-config: Cloth Config v26.3 26.3.159
+		fabric-advancement-api-v1: Fabric Advancement API (v1) 1.0.0+38c7a2d55d
+		fabric-api: Fabric API 0.161.0+26.3
+		fabric-api-base: Fabric API Base 2.0.6+fcdff87fa3
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 2.0.24+3434d6d95d
+		fabric-biome-api-v1: Fabric Biome API (v1) 20.0.9+74ed1ea55d
+		fabric-block-api-v1: Fabric Block API (v1) 3.1.0+0ae6f9115d
+		fabric-block-getter-api-v2: Fabric BlockGetter API (v2) 2.0.9+3434d6d95d
+		fabric-command-api-v2: Fabric Command API (v2) 3.1.2+fcdff87f5d
+		fabric-content-registries-v0: Fabric Content Registries (v0) 15.0.4+74ed1ea55d
+		fabric-convention-tags-v2: Fabric Convention Tags (v2) 4.10.3+6b5b47fd5d
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 1.0.7+fcdff87f5d
+		fabric-creative-tab-api-v1: Fabric Creative Tab API (v1) 5.0.21+fcdff87f5d
+		fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 2.2.30+3434d6d95d
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 27.2.4+427eab975d
+		fabric-debug-api-v1: Fabric Debug API (v1) 1.0.4+3434d6d95d
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 5.1.19+47f74c985d
+		fabric-entity-events-v1: Fabric Entity Events (v1) 6.0.4+3434d6d95d
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 5.3.6+3434d6d95d
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 4.0.10+3434d6d95d
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 4.0.32+3434d6d95d
+		fabric-item-api-v1: Fabric Item API (v1) 14.7.0+cf6bc2db5d
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 4.1.9+ffef5f675d
+		fabric-loot-api-v3: Fabric Loot API (v3) 4.0.8+4068fd645d
+		fabric-menu-api-v1: Fabric Menu API (v1) 2.0.27+ed66f0a35d
+		fabric-message-api-v1: Fabric Message API (v1) 7.0.10+3434d6d95d
+		fabric-networking-api-v1: Fabric Networking API (v1) 6.3.8+fcdff87f5d
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 24.1.9+3434d6d95d
+		fabric-particles-v1: Fabric Particles (v1) 5.0.24+3434d6d95d
+		fabric-permission-api-v1: Fabric Permission API (v1) 1.0.8+fcdff87f5d
+		fabric-recipe-api-v1: Fabric Recipe API (v1) 10.0.8+fcdff87f5d
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 8.0.1+fcdff87f5d
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 6.0.6+3434d6d95d
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 6.1.5+3434d6d95d
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 3.3.26+4fc5413f5d
+		fabric-resource-loader-v1: Fabric Resource Loader (v1) 3.0.4+fcdff87fa3
+		fabric-serialization-api-v1: Fabric Serialization API (v1) 2.0.7+74ed1ea55d
+		fabric-tag-api-v1: Fabric Tag API (v1) 2.1.10+fcdff87f5d
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 8.0.25+fcdff87f5d
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 8.1.16+52268a0e5d
+		fabricloader: Fabric Loader 0.19.5
+		java: OpenJDK 64-Bit Server VM 25
+		jei: Just Enough Items 31.6.0.25
+			mezz_config: MezzConfig 0.6.3
+		journeymap: Journeymap 26.3-6.0.9
+			ar_com_hjg_pngj: pngj 2.1.0
+			commonnetworking: Common Network 26.3-1.1.1
+			journeymap-api-fabric: JourneyMap API 26.3-2.0.0
+		minecraft: Minecraft 26.3
+		mixinextras: MixinExtras 0.5.5
+		tales-of-the-verdant-wind: Tales of the Verdant Wind 1.1.0-26.3
+		terrablender: TerraBlender 26.3.0.0.7
+			com_electronwill_night-config_core: core 3.6.7
+			com_electronwill_night-config_toml: toml 3.6.7
+		trade_cycling: Trade Cycling 1.0.22+26.3
+	Server Running: true
+	Player Count: 1 / 20; [ServerPlayer['Player986'/40, l='ServerLevel[world]', x=123.51, y=71.00, z=98.28]]
+	Active Data Packs: vanilla, fabric-convention-tags-v2, fabric-gametest-api-v1, tales-of-the-verdant-wind, terrablender (incompatible)
+	Available Data Packs: fabric-convention-tags-v2, fabric-gametest-api-v1, minecart_improvements, redstone_experiments, tales-of-the-verdant-wind, terrablender (incompatible), trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 2056524014941830580
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server

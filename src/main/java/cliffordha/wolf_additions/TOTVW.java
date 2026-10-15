@@ -1,0 +1,37 @@
+package cliffordha.wolf_additions;
+
+import net.minecraft.resources.Identifier;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class TOTVW {
+    public static final String MOD_ID = "cliffordha-wolf-additions";
+    public static final String MOD_NAME_LONG = "Wolf Additions";
+    public static final String MOD_NAME = "TOTVW";
+    private static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
+    private static final Logger ID_LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+    public static boolean IN_DEVELOPMENT = WolfAdditions.IN_DEVELOPMENT;
+
+    public static void sendStat(String stat) {
+        ID_LOGGER.info(stat);
+    }
+
+    public static void sendClassRegisterLog(String className) {
+        TOTVW.LOGGER.info("{} registered!", className);
+    }
+
+    public static void sendInfo(String info) {
+        TOTVW.LOGGER.info(info);
+    }
+    public static void sendWarning(String info) {
+        TOTVW.LOGGER.warn(info);
+    }
+    public static void sendError(String info) {
+        TOTVW.LOGGER.error(info);
+    }
+
+    public static Identifier registerID(String key) {
+        return Identifier.fromNamespaceAndPath(MOD_ID, key);
+    }
+}

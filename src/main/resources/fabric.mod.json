@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "cliffordha-wolf-additions",
+	"version": "${version}",
+	"name": "Wolf Additions",
+	"description": "On-attack enchantments for your wolf companions!",
+	"authors": [
+		"Clifford HA"
+	],
+	"contact": {
+		"sources": "https://github.com/clifford-ha/tales-of-the-verdant-wind"
+	},
+	"license": "All rights reserved",
+	"icon": "assets/cliffordha-wolf-additions/wolf-additions.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cliffordha.wolf_additions.WolfAdditions"
+		],
+		"client": [
+			"cliffordha.wolf_additions.WolfAdditionsClient"
+		],
+		"fabric-datagen": [
+			"cliffordha.wolf_additions.WolfAdditionsDataGenerator"
+		],
+		"modmenu": [
+			"cliffordha.wolf_additions.config.VWModMenuIntegration"
+		]
+	},
+	"accessWidener": "wolf-additions.classtweaker",
+	"mixins": [
+		"wolf-additions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.3",
+		"java": ">=24",
+		"fabric-api": "*",
+		"cloth-config": "*"
+	}
+}

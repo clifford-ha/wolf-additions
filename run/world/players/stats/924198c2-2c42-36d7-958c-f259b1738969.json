@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "tales-of-the-verdant-wind:havoc_runestone_plate": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1928,
+      "minecraft:time_since_rest": 3135,
+      "minecraft:walk_one_cm": 4859,
+      "minecraft:total_world_time": 3135,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 5223,
+      "minecraft:sneak_time": 18,
+      "minecraft:play_time": 3135,
+      "minecraft:jump": 24,
+      "minecraft:time_since_death": 3135
+    }
+  },
+  "DataVersion": 5023
+}

@@ -1,0 +1,6 @@
+// 26.3	-999999999-01-01T00:00:00	Wolf Additions/Tags for minecraft:item
+caa40f4b0370ef4efc1e6d5381782e87090d0d87 data/cliffordha-wolf-additions/tags/item/benediction_enchantable.json
+b76502c972581f92dcba20d4c807a529afec8297 data/cliffordha-wolf-additions/tags/item/benediction_enchantment_use_qualified_items.json
+6b8ab78fce41196208dbe5c7f7a03a4c88b47095 data/cliffordha-wolf-additions/tags/item/benediction_enchantment_use_qualified_tools.json
+023be715877cb6033c3e30eb45440eb56daa8d72 data/cliffordha-wolf-additions/tags/item/wolf_armor_enchantable.json
+023be715877cb6033c3e30eb45440eb56daa8d72 data/minecraft/tags/item/chest_armor.json

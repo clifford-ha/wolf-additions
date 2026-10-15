@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:wolf_armor",
+    {
+      "id": "#minecraft:chest_armor",
+      "required": false
+    }
+  ]
+}

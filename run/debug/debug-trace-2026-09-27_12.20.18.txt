@@ -1,0 +1,14 @@
+tales-of-the-verdant-wind:carver
+    [F] tales-of-the-verdant-wind:carver size=6
+        [C] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace #c:stones
+            [M] Successfully filled 3934 block(s)
+        [R = 1] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace #c:stones
+        [C] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace grass_block -> 0
+        [C] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace dirt
+            [M] Successfully filled 16 block(s)
+        [R = 1] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace dirt
+        [C] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace lava -> 0
+        [C] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace water -> 0
+        [C] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace gravel
+            [M] Successfully filled 260 block(s)
+        [R = 1] execute at @a run fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace gravel

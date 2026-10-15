@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:bookshelf": 38,
+      "minecraft:wolf_spawn_egg": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:string": 2
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2806,
+      "minecraft:time_since_rest": 3272,
+      "minecraft:walk_one_cm": 885,
+      "minecraft:total_world_time": 3287,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 1535,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 3272,
+      "minecraft:damage_dealt": 10,
+      "minecraft:jump": 11,
+      "minecraft:enchant_item": 2,
+      "minecraft:time_since_death": 3272
+    }
+  },
+  "DataVersion": 5023
+}

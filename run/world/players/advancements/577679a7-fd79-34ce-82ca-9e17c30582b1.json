@@ -1,0 +1,45 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2026-10-02 17:42:33 +0800"
+    },
+    "done": false
+  },
+  "tales-of-the-verdant-wind:bound_by_a_thread": {
+    "criteria": {
+      "bound_by_a_thread": "2026-10-02 17:43:30 +0800"
+    },
+    "done": true
+  },
+  "tales-of-the-verdant-wind:power_beyond_reason": {
+    "criteria": {
+      "power_beyond_reason": "2026-10-02 17:43:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2026-10-02 17:43:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-10-02 17:42:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2026-10-02 17:43:10 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/name_tag": {
+    "criteria": {
+      "has_paper": "2026-10-02 17:43:10 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
+}

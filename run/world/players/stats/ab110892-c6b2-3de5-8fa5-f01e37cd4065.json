@@ -1,0 +1,35 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:cactus": 2
+    },
+    "minecraft:killed": {
+      "minecraft:player": 1
+    },
+    "minecraft:custom": {
+      "minecraft:damage_blocked_by_shield": 360,
+      "minecraft:time_since_rest": 5503,
+      "minecraft:walk_one_cm": 7652,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 4822,
+      "minecraft:play_time": 9095,
+      "minecraft:damage_dealt": 295,
+      "minecraft:jump": 48,
+      "minecraft:time_since_death": 5183,
+      "minecraft:sprint_one_cm": 7858,
+      "minecraft:fall_one_cm": 2240,
+      "minecraft:total_world_time": 9095,
+      "minecraft:fly_one_cm": 10958,
+      "minecraft:deaths": 4,
+      "minecraft:player_kills": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:player": 4
+    },
+    "minecraft:used": {
+      "minecraft:shield": 7,
+      "minecraft:copper_sword": 5
+    }
+  },
+  "DataVersion": 5023
+}
