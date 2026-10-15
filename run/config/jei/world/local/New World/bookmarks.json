@@ -1,5 +1,0 @@
-[
-  {"version":3},
-  {"ingredient":{"id":"minecraft:iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:iron_sword","components":"{\"minecraft:damage\":210,\"minecraft:enchantments\":{\"minecraft:unbreaking\":3}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
