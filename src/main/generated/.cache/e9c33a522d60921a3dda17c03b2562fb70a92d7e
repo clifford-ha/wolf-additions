@@ -1,4 +1,4 @@
-// 26.3	-999999999-01-01T00:00:00	Wolf Additions/TOTVW Dynamic Registries
+// 26.2	-999999999-01-01T00:00:00	Wolf Additions/TOTVW Dynamic Registries
 a8c8571026469cd07415bed5b8accdc20a194639 data/cliffordha-wolf-additions/damage_type/bleeding.json
 7aa6bbbfc1ccea34fbfafbe6905608e1e7795d18 data/cliffordha-wolf-additions/damage_type/bloodlust.json
 19456cb44fede50cc2d3b00c4b24ca9696448e1c data/cliffordha-wolf-additions/damage_type/scorching_heat.json
@@ -12,7 +12,7 @@ db43b3fe86d699417a911aa253dfa4d82f25efcc data/cliffordha-wolf-additions/enchantm
 fe3999692d4f3b3ee4612d91c4118f8f80da7839 data/cliffordha-wolf-additions/enchantment/wolf_effect_oozing.json
 b0258a6e64a4f9284cd9cf53e69190ee9b7b368c data/cliffordha-wolf-additions/enchantment/wolf_effect_poisoning.json
 3bfb1425956932dd5cebb32a7afa90254cc63b65 data/cliffordha-wolf-additions/enchantment/wolf_effect_withering.json
-88aeac2c137dece8968fcc958e682ec7e49f8851 data/cliffordha-wolf-additions/villager_trade/armorer/1/wolf_enhancement_kit.json
-9d87f7a88a5070d960af41745a2e7b4fd5ea23cc data/cliffordha-wolf-additions/villager_trade/librarian/2/wolf_atk_enchantments.json
-229eba656d2c6c6e9e8551833ba21379796cce06 data/cliffordha-wolf-additions/villager_trade/wandering_trader/far_away_enchantments.json
-60420bf78859def6262a7702894154ffdfe434c3 data/cliffordha-wolf-additions/villager_trade/weaponsmith/2/wolf_atk_enchantments.json
+3980e5260fe2f54ef6dcfd3963ce9ae818de3392 data/cliffordha-wolf-additions/villager_trade/armorer/1/wolf_enhancement_kit.json
+20a0b1b1ac79a86164db2008a72b1e18321465b1 data/cliffordha-wolf-additions/villager_trade/librarian/2/wolf_atk_enchantments.json
+7fcff340dca1198c36a551256944614760caae17 data/cliffordha-wolf-additions/villager_trade/wandering_trader/far_away_enchantments.json
+70144a46f8d373046577ada924ef5804631523ad data/cliffordha-wolf-additions/villager_trade/weaponsmith/2/wolf_atk_enchantments.json

@@ -36,7 +36,7 @@ public class VWCommands {
 
     public static void register() {
         CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("trust_data")
                     .then(Commands.literal("query")
                     .executes(context -> {
@@ -64,7 +64,7 @@ public class VWCommands {
                     }
                     ))));
 
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("trust_data")
                     .then(Commands.literal("remove")
                     .then(Commands.argument("entity", IntegerArgumentType.integer(1))
@@ -96,7 +96,7 @@ public class VWCommands {
                     }
                     )))));
 
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("trust_data")
                     .then(Commands.literal("remove")
                     .then(Commands.literal("all")
@@ -119,7 +119,7 @@ public class VWCommands {
                     }
                     )))));
 
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("trust_data")
                     .then(Commands.literal("wolf")
                     .then(Commands.literal("sync")
@@ -161,7 +161,7 @@ public class VWCommands {
                     }
                     )))));
 
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("enchantments_handbook").executes(context -> {
                         ServerPlayer player = getPlayer(context);
                         if (player == null) {
@@ -182,7 +182,7 @@ public class VWCommands {
                     }
                     )));
 
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("effects_handbook").executes(context -> {
                         ServerPlayer player = getPlayer(context);
                         if (player == null) {
@@ -203,7 +203,7 @@ public class VWCommands {
                     }
                     )));
 
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("features_handbook").executes(context -> {
                         ServerPlayer player = getPlayer(context);
                         if (player == null) {
@@ -225,7 +225,7 @@ public class VWCommands {
                     }
                     )));
 
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("get_atrocity_count").executes(context -> {
                                 ServerPlayer player = getPlayer(context);
                                 if (player == null) {
@@ -248,7 +248,7 @@ public class VWCommands {
 
         if (!TOTVW.IN_DEVELOPMENT) return;
         CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("tame_nearby_wolves").executes(context -> {
                         ServerPlayer player = getPlayer(context);
                         if (player == null) {
@@ -274,7 +274,7 @@ public class VWCommands {
                         return wolves.size();
                     }
                     )));
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("release_tamed_wolves").executes(context -> {
                                 ServerPlayer player = getPlayer(context);
                                 if (player == null) {
@@ -300,7 +300,7 @@ public class VWCommands {
                                 return wolves.size();
                             }
                     )));
-            dispatcher.register(Commands.literal("totvw")
+            dispatcher.register(Commands.literal("wolf-additions")
                     .then(Commands.literal("get-status-checker").executes(context -> {
                                 Entity entity = context.getSource().getEntity();
                                 if (!(entity instanceof Player player)) {

@@ -261,7 +261,7 @@ public abstract class WolfEntityMixin extends LivingEntity {
                 consumeItem(player, stack);
                 cir.setReturnValue(InteractionResult.SUCCESS);
             } else {
-                sendToChat(player, true, name + " already reached Beneficiation Stack limit!");
+                sendToChat(player, true, name + " already reached Benediction Stack limit!");
                 cir.setReturnValue(InteractionResult.PASS);
             }
         }

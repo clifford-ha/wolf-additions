@@ -156,7 +156,7 @@ public class VWEnchantmentsHandbook {
     public static String[] ENCHANTMENTS_HANDBOOK_CONTENTS(Player player) {
         return addPage(
                 fText(BOLD, "INTRODUCTION") + nextLine
-                        + "TOTVW: Wolf Additions introduces several custom enchantments to help enhance your wolf companion's on-attack combat abilities. Depending on the enchantments available in your companion's armor, it can trigger different effects and skills depending on the circumstances."
+                        + "Wolf Additions introduces several custom enchantments to help enhance your wolf companion's on-attack combat abilities. Depending on the enchantments available in your companion's armor, it can trigger different effects and skills depending on the circumstances."
                         + addSeparator
                         + benedictionOfTheVerdantMountainsInfo(player)
                         + addSeparator
@@ -187,7 +187,7 @@ public class VWEnchantmentsHandbook {
                         + cText(DARK_AQUA, "#".repeat(64))
                         + addSeparator
                         + bold("AUTHOR'S NOTE") + nextLine
-                        + "Some settings of the mod can be configured. You can edit these by manually accessing the config file \"tales-of-the-verdant-wind.toml\" or through other means like Mod Menu."
+                        + "Some settings of the mod can be configured. You can edit these by manually accessing the config file \"cliffordha-wolf-additions.toml\" or through other means like Mod Menu."
         );
     }
 }

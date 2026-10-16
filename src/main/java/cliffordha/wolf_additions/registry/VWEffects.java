@@ -1,7 +1,6 @@
 package cliffordha.wolf_additions.registry;
 
 import cliffordha.wolf_additions.TOTVW;
-
 import cliffordha.wolf_additions.effect.*;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;

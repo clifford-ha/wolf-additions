@@ -23,7 +23,7 @@ public class VWEffectsHandbook {
 
     private static String blessingOfTheVerdantWind() {
         return titleBlessing.toUpperCase() + nextLine
-                + "This can be granted by the " + descBenediction + " enchantment when a wolf or player triggers certain conditions or when near an active Lodestone Wind Core. Additionally, this effect is removed when the entity is a monster or enemy type."
+                + "This can be granted by the " + descBenediction + " enchantment when a wolf or when player triggers certain conditions. Additionally, this effect is removed when the entity is a monster or enemy type."
                 + nextParagraph
                 + "While active: " + nextLine
                 + "• Increase base " + descAttackDMG + " by 2." + nextLine
@@ -61,13 +61,13 @@ public class VWEffectsHandbook {
     }
     private static String paralyze() {
         return titleParalyze.toUpperCase() + nextLine
-                + "An affect that disables the movement and attack capabilities of the entity. This effect can be obtained by the Bloodlust enchantment when a wolf successfully attacks and paralyzes a target or is given by the Havoc Runestone. Will not work to a player that is not in Survival mode.";
+                + "An affect that disables the movement and attack capabilities of the entity. This effect can be obtained by the Bloodlust enchantment when a wolf successfully attacks and paralyzes a target. Will not work to a player that is not in Survival mode.";
     }
 
 
     public static String[] EFFECTS_HANDBOOK_CONTENTS() {
         return addPage(fText(BOLD, "INTRODUCTION") + nextLine
-                + "TOTVW: Wolf Additions introduces several custom effects that are mostly utilized by the Wolf ATK Effects enchantment."
+                + "Wolf Additions introduces several custom effects that are mostly utilized by the Wolf ATK Effects enchantment."
                 + nextParagraph
                 + " For easier explanation:" + nextLine
                 + fText(BOLD, "Entity") + ": The entity (or you) that is affected by the effect." + nextLine

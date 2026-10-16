@@ -35,8 +35,6 @@ public class VWEngLangProvider extends FabricLanguageProvider {
         text.add(effectKey("wind_veil"), "Wind Veil");
         text.add(effectKey("havoc"), "Havoc");
 
-        text.add("effect.tales-of-the-verdant-wind.bloodlust.description", "Gives massive attack buff in exchange for constant damage while the effect is active");
-        
         text.add("item.minecraft.potion.effect.sacred_verdant_potion", "Sacred Verdant Potion");
         text.add("item.minecraft.splash_potion.effect.sacred_verdant_potion", "Sacred Verdant Splash Potion");
         text.add("item.minecraft.lingering_potion.effect.sacred_verdant_potion", "Sacred Verdant Lingering Potion");
